@@ -30,10 +30,10 @@ if ! type -p ctgen >/dev/null; then
 fi
 
 declare -A names
-names["Banana"]=$(with_version "The Banana")
-names["Banana-Green"]=$(with_version "The Green Banana")
-names["Banana-Blue"]=$(with_version "The Blue Banana")
-names["Banana-Red"]=$(with_version "The Red Banana")
+names["Catppuccin-Latte"]=$(with_version "Catppuccin-Latte")
+names["Catppuccin-Frappé"]=$(with_version "Catppuccin-Frappé")
+names["Catppuccin-Macchiato"]=$(with_version "Catppuccin-Macchiato")
+names["Catppuccin-Mocha"]=$(with_version "Catppuccin-Mocha")
 
 # Cleanup old builds
 rm -rf themes bin
